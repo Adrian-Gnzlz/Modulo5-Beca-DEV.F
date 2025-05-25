@@ -44,7 +44,6 @@ function actualizarDisponibilidad(titulo, nuevoEstado) {
     }, 1000);
 }
 
-// Ejecución de ejemplo
 mostrarLibros();
 agregarLibro("El principito", "Antoine de Saint-Exupéry", "Fábula", true);
 actualizarDisponibilidad("1984", false);

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Reservas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="contenedor">
+        <h1>Reserva tu mesa</h1>
+
+        <form id="formulario-reserva">
+        <label>
+            Nombre:
+            <input type="text" id="nombre-cliente" required>
+        </label>
+
+        <label>
+            Mesas solicitadas:
+            <input type="number" id="mesas-solicitadas" min="1" required>
+        </label>
+
+        <button type="submit">Reservar</button>
+        </form>
+
+        <p id="resultado"></p>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
